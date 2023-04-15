@@ -15,5 +15,5 @@ Note right of browser:
 browser start the execution of the code that request the notes from the server
 
 browser->>server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
-server-->>browser: [...]
+server-->>browser: [notes]
 ```
