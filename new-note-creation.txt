@@ -19,6 +19,6 @@ browser starts executing the code that sends a requests from server.
 browser->>server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
 server-->>browser: [{ content: "on it", date: "2019-05-23" }, ...]
 
-note right of browser:
+Note right of browser:
 browserexecutes the handler thath renders the notes
 ```
